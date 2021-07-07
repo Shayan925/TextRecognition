@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-<img src="https://github.com/Shayan925/TextRecognition/blob/main/image_2021-07-06_204610.png" height="600" width="1200"/>
+<img src="https://github.com/Shayan925/TextRecognition/blob/main/image_2021-07-06_204831.png" height="600" width="1200"/>
 </p>
 
 ## Requirements
