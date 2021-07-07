@@ -2,8 +2,8 @@
 
 ## How to use
 - Select an image
-- Click "Detect Words" button at the top
-- Fix any mistakes in the text input
+- Click "Detect Words" button at the top (displays an image with the words surrounded by boxes)
+- Fix any mistakes in the text input (not 100% accurate, so there will be typos or random characters)
 - Save the file as a text document
 
 <p align="center">
