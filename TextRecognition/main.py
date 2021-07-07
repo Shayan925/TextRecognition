@@ -15,7 +15,7 @@ import pytesseract
 import cv2
 
 # If there are troubles with importing pytesseract try specifying the path to tesseract.exe
-pytesseract.pytesseract.tesseract_cmd = 'D:\\Users\\Shayan\\AppData\\Local\\Programs\\Tesseract-OCR\\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = 'C:\\Users\\USER\\AppData\\Local\\Programs\\Tesseract-OCR\\tesseract.exe'
 
 class ScreenDisplay(GridLayout):
 
