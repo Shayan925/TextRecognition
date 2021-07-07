@@ -1,0 +1,52 @@
+ScreenDisplay:
+
+<ScreenDisplay>:
+    rows: 3
+    ActionBar:
+        pos_hint: {"top": 1}
+        ActionView:
+            use_separator: True
+            ActionPrevious:
+                title: ""
+                with_previous: False
+                size_hint: None, None
+                size: 0, 0
+                app_icon: ''
+                app_icon_width: 0
+                app_icon_height: 0
+            ActionGroup:
+                text: "File"
+                mode: "spinner"
+                ActionButton:
+                    text: "Select Image"
+                    on_press: root.select_image()
+                ActionButton:
+                    text: "Save As"
+                    on_press: root.save_file(text_edit.text)
+            ActionGroup:
+                text: "Language"
+                mode: "spinner"
+                ActionButton:
+                    text: "English"
+                    on_press: root.language = "eng"
+            ActionGroup:
+                ActionButton:
+                    text: "Detect Words"
+                    on_press: root.detect_words()
+    BoxLayout:
+        Image:
+            source: root.file_path
+            allow_stretch: True
+            keep_ratio: False
+        ScrollView:
+            id: scroll
+            bar_width: "20dp"
+            scroll_type: ['bars', 'content']
+            TextInput:
+                id: text_edit
+                text: root.output_text
+                hint_text: "Output will be displayed here"
+                multiline: True
+                font_size: "32dp"
+                size_hint: 1, None
+                height: max(self.minimum_height, scroll.height)
