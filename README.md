@@ -7,7 +7,11 @@
 - Save the file as a text document
 
 <p align="center">
-<img src="https://sli.dev/logo-title.png" alt="Slidev" height="250" width="250"/>
+<img src="https://github.com/Shayan925/TextRecognition/blob/main/image_2021-07-06_204610.png" height="600" width="1200"/>
+</p>
+
+<p align="center">
+<img src="https://github.com/Shayan925/TextRecognition/blob/main/image_2021-07-06_204610.png" height="600" width="1200"/>
 </p>
 
 ## Requirements
