@@ -1,5 +1,8 @@
 # Text Recognition
 
+## Uses of the app
+As we have transitioned into more of an online environment because of COVID-19, the need for working with digital notes and files has greatly increased. Unfortunately, many of us still possess handwritten notes from school or work that cannot be easily transfered online. This TextRecognition application allows you to save your notes as a text document right next to all your other files.
+
 ## How to use
 - Select an image
 - Click "Detect Words" button at the top (displays an image with the words surrounded by boxes)
